@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.baner-img img {
+	width: 1895px;
+	height: 945px;
+	position: relative;
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px) {
+
+	.baner-img img {
+		width: 100%;
+		height: 100%;
+	}
+	.baner-section {
+		width: 100%;
+		height: 100%;
+
+	}
+}
